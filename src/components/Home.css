@@ -1,0 +1,497 @@
+@media (min-width: 320px) {
+    .container {
+        margin: 0;
+    }
+    
+    .banner {
+        padding: 40vw 0 0 0;
+        height: 110vw;
+        background-image: url("../images/bg-pattern-intro-mobile.svg"), linear-gradient(to bottom right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+        background-position: 38% 35%;
+        background-size: 350vw;
+        border-radius: 0 0 0 30vw;
+    }
+
+    .modern {
+        position: relative;
+        width: 81vw;
+        color: #FFF;
+        font-size: 9vw;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .grow {
+        position: relative;
+        width: 81vw;
+        color: #FFF;
+        font-size: 4.5vw;
+        left: 50%;
+        transform: translate(-50%);
+        margin: 0 0 10vw 0;
+    }
+
+    .start-btn {
+        background-color: #fff;
+        border-radius: 71px;
+        color: hsl(356, 100%, 66%);
+        font-size: 4vw;
+        font-weight: 700;
+        padding: 4vw;
+        border: solid #ffffff 1px;
+        display: inline-block;
+        cursor: pointer;
+        text-align: center;
+        margin: 0 3vw;
+     }
+
+     .learn-btn {
+        background-color: rgba(0,0,0,0);
+        border-radius: 71px;
+        color: #FFF;
+        font-size: 4vw;
+        font-weight: 700;
+        padding: 4vw 7vw;
+        border: solid #ffffff 1px;
+        display: inline-block;
+        cursor: pointer;
+        text-align: center;
+        margin: 0 3vw;
+     }
+
+     .designed {
+        position: absolute;
+        width: 90vw;
+        left: 50%;
+        transform: translate(-50%);
+        font-size: 6vw;
+        color: hsl(208, 49%, 24%);
+        margin: 20vw 0 0 0;
+     }
+    
+    .first-cont {
+        display: grid;
+        grid-auto-rows: 85vw 230vw;
+        grid-template-columns: repeat(auto-fill, 1fr);
+        padding: 40vw 0 0 0;
+    }
+
+    .first-left {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .first-left-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .first-right {
+        width: 100%;
+        height: 100%;
+        padding: 5vw 0;
+    }
+
+    .extensible-title {
+        font-size: 6vw;
+        position: relative;
+        width: 50vw;
+        color: hsl(208, 49%, 24%);
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .extensible-text {
+        font-size: 4vw;
+        position: relative;
+        width: 75vw;
+        line-height: 7vw;
+        color: hsl(207, 13%, 34%);
+        left: 50%;
+        transform: translate(-50%);
+        margin: 0 0 10vw 0;
+    }
+
+    .robust-title {
+        font-size: 6vw;
+        position: relative;
+        width: 50vw;
+        color: hsl(208, 49%, 24%);
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .robust-text {
+        font-size: 4vw;
+        position: relative;
+        width: 75vw;
+        line-height: 7vw;
+        color: hsl(207, 13%, 34%);
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .second-cont {
+        display: grid;
+        grid-auto-rows: 60vw 110vw;
+        grid-template-columns: repeat(auto-fill, 1fr);
+        background-image: url("../images/bg-pattern-circles.svg"), linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+        background-repeat: no-repeat;
+        background-position: 50% -60vw;
+        background-size: 164vw, 155vw 600vw;
+        border-radius: 0 30vw 0 30vw;
+    }
+
+    .second-left {
+        width: 100%;
+        height: 100%;
+    }
+
+    .second-left-img {
+        position: absolute;
+        width: 100%;
+        height: 100vw;
+        top: 458vw;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .second-right {
+        width: 100%;
+        height: 100%;
+    }
+
+    .state-title {
+        font-size: 9vw;
+        position: relative;
+        width: 70vw;
+        color: #FFF;
+        left: 50%;
+        transform: translate(-50%);
+        margin-bottom: 8vw;
+    }
+
+    .state-text {
+        font-size: 4vw;
+        position: relative;
+        width: 75vw;
+        line-height: 7vw;
+        color: #FFF;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .third-cont {
+        display: grid;
+        grid-auto-rows: 70vw 185vw;
+        grid-template-columns: repeat(auto-fill, 1fr);
+    }
+
+    .third-left {
+        margin: 10vw 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .third-left-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .third-right {
+        margin: 10vw 0;
+        width: 100%;
+        height: 100%;
+        padding: 5vw 0;
+    }
+
+    .free-title {
+        font-size: 6vw;
+        position: relative;
+        width: 50vw;
+        color: hsl(208, 49%, 24%);
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .free-text {
+        font-size: 4vw;
+        position: relative;
+        width: 74vw;
+        line-height: 7vw;
+        color: hsl(207, 13%, 34%);
+        left: 50%;
+        transform: translate(-50%);
+        margin: 0 0 10vw 0;
+    }
+
+    .powerful-title {
+        font-size: 6vw;
+        position: relative;
+        width: 50vw;
+        color: hsl(208, 49%, 24%);
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .powerful-text {
+        font-size: 4vw;
+        position: relative;
+        width: 75vw;
+        line-height: 7vw;
+        color: hsl(207, 13%, 34%);
+        left: 50%;
+        transform: translate(-50%);
+    }
+    
+    .footer {
+        height: 205vw;
+        background-color: hsl(240, 10%, 16%);
+        padding: 12vw 0 0 0;
+        border-radius: 0 30vw 0 0;
+    }
+
+    .footer-logo {
+        margin: 5vw;
+    }
+
+    .footer-title {
+        font-size: 5vw;
+        color: #FFF;
+        margin: 10vw;
+    }
+
+    .link {
+        display: block;
+        color: hsl(240, 2%, 79%);
+        font-size: 4.5vw;
+        margin: 2vw;
+        text-decoration: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        margin: 17vw 0 0 0;
+    }
+    
+    .banner {
+        height: 40vw;
+    }
+    
+    .banner-img {
+        position: relative;
+        top: -50%;
+        width: 100%;
+        height: 150%;
+    }
+    
+    .creatives {
+        font-family: "Fraunces";
+        letter-spacing: 1vw;
+        width: 95vw;
+        font-size:  4vw;
+        top: 16%;
+    }
+    
+    .arrow {
+        width: 3vw;
+        position: absolute;
+        top: 24vw;
+    }
+    
+    .first-cont {
+        grid-auto-rows: 40vw;
+        grid-template-columns: 50% 50%;
+        transform: scaleX(-1);
+    }
+    
+    .left-side1 {
+        position: relative;
+        width: 100%;
+        transform: scaleX(-1);
+    }
+
+    .right-side1 {
+        width: 100%;
+        padding: 5vw 0 0 0;
+        transform: scaleX(-1);
+    }
+    
+    .transform-title {
+        font-size: 3vw;
+        width: 32vw;
+        text-align: left;
+    }
+    
+    .transform-text {
+        font-size: 1.25vw;
+        line-height: 3vw;
+        width: 32vw;
+        margin:  0 0 2.5vw 0;
+        text-align: left;
+    }
+    
+    .transform-learn {
+        font-size: 1.5vw;
+        font-weight: 700;
+        width: 45vw;
+        text-align: left;
+        position: relative;
+        right: 20%;
+    }
+
+    .transform-learn::after {
+        height: .8vw;
+        width: 12vw;
+        top: -.7vw;
+    }
+
+    .second-cont {
+        grid-auto-rows: 40vw;
+        grid-template-columns: 50% 50%;
+    }
+    
+    .right-side2 {
+        padding: 5vw 0 0 0;
+    }
+    
+    .stand-title {
+        font-size: 3vw;
+        width: 32vw;
+        text-align: left;
+    }
+    
+    .stand-text {
+        font-size: 1.25vw;
+        line-height: 3vw;
+        width: 32vw;
+        margin:  0 0 2.5vw 0;
+        text-align: left;
+    }
+    
+    .stand-learn {
+        font-size: 1.5vw;
+        font-weight: 700;
+        width: 45vw;
+        text-align: left;
+        position: relative;
+        right: 20%;
+    }
+
+    .stand-learn::after {
+        height: .8vw;
+        width: 12vw;
+        top: -.7vw;
+    }
+    
+    .graphic-title {
+        font-size: 2.5vw;
+        left: 25%;
+        width: 20vw;
+        margin-top: 160.5vw;
+        transform: translate(-50%);
+    }
+    
+    .graphic-text {
+        font-size: 1.3vw;
+        line-height: 2.5vw;
+        width: 30vw;
+        left: 25%;
+        margin-top: 165.5vw;
+        transform: translate(-50%);
+    }
+    
+    .photo-title {
+        font-size: 2.5vw;
+        left: 75%;
+        width: 20vw;
+        margin-top: 160.5vw;
+        transform: translate(-50%);
+    }
+    
+    .photo-text {
+        font-size: 1.3vw;
+        line-height: 2.5vw;
+        width: 30vw;
+        left: 75%;
+        margin-top: 165.5vw;
+        transform: translate(-50%);
+    }
+
+    .testimonials {
+        font-family: "Fraunces";
+        color: hsl(210, 4%, 67%);
+        font-size: 2vw;
+        letter-spacing: 1vw;
+        width: 90vw;
+        position: absolute;
+        left: 50%;
+        margin-top: 190vw;
+        top: 0;
+        transform: translate(-50%);
+    }
+
+    .third-cont {
+        grid-auto-rows: 30vw;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 23vw 7vw;
+        height: 18vw;
+    }
+
+    .third-left, .third-center, .third-right {
+        width: 25vw;
+    }
+
+    .client1, .client2, .client3 {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .client1-text, .client2-text, .client3-text {
+        font-size: 1.2vw;
+        line-height: 2.5vw;
+        width: 24vw;
+    }
+
+    .client1-name, .client2-name, .client3-name {
+        font-size: 2vw;
+        font-weight: 900;
+        width: 15vw;
+        top: 15%;
+    }
+
+    .client1-role, .client2-role, .client3-role {
+        font-size: 1.4vw;
+        width: 15vw;
+        top: 12%;
+    }
+
+    .fourth-cont {
+        grid-auto-rows: 30vw;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+
+    .footer {
+        height: auto;
+        padding: 6vw 0 0 0;
+    }
+
+    .sunnyside-foot {
+        font-size: 4vw;
+        width: 100%;
+        margin: 0 0 5vw 0;
+    }
+
+    .link {
+        font-size: 1.7vw;
+        margin: 3vw;
+        left: 5%;
+    }
+
+    .icon {
+        width: 2vw;
+        margin: 10vw 1vw 6vw 1vw;
+        cursor: pointer;
+    }
+}
