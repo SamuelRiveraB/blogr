@@ -1,38 +1,31 @@
 import React from "react";
 import "./Home.css";
+import banner from "../images/bg-pattern-intro-mobile.svg"
 import firstLeft from "../images/illustration-editor-mobile.svg";
 import secondLeft from "../images/illustration-phones.svg";
 import thirdLeft from "../images/illustration-laptop-mobile.svg";
 import logo from "../images/logo.svg";
 
+import bannerDesk from "../images/bg-pattern-intro-desktop.svg";
+import firstLeftDesk from "../images/illustration-editor-desktop.svg";
+import thirdLeftDesk from "../images/illustration-laptop-desktop.svg";
+
 function Home() {
-    /*React.useEffect(() => {
+    React.useEffect(() => {
         responsiveImgs();
         function responsiveImgs() {
             if (window.innerWidth < 1200) {
-                document.querySelector(".banner-img").src = bannerImg;
-                document.querySelector(".left1").src = left1;
-                document.querySelector(".left2").src = left2;
-                document.querySelector(".left3").src = left3;
-                document.querySelector(".right3").src = right3;
-                document.querySelector(".gallery1").src = gallery1;
-                document.querySelector(".gallery2").src = gallery2;
-                document.querySelector(".gallery3").src = gallery3;
-                document.querySelector(".gallery4").src = gallery4;
+                document.querySelector(".banner").style.backgroundImage = 'url(' + banner + '), linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%))';
+                document.querySelector(".first-left-img").src = firstLeft;
+                document.querySelector(".third-left-img").src = thirdLeft;
             } else {
-                document.querySelector(".banner-img").src = bannerImgDesk;
-                document.querySelector(".left1").src = left1Desk;
-                document.querySelector(".left2").src = left2Desk;
-                document.querySelector(".left3").src = left3Desk;
-                document.querySelector(".right3").src = right3Desk;
-                document.querySelector(".gallery1").src = gallery1Desk;
-                document.querySelector(".gallery2").src = gallery2Desk;
-                document.querySelector(".gallery3").src = gallery3Desk;
-                document.querySelector(".gallery4").src = gallery4Desk;
+                document.querySelector(".banner").style.backgroundImage = 'url(' + bannerDesk + '), linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%))';
+                document.querySelector(".first-left-img").src = firstLeftDesk;
+                document.querySelector(".third-left-img").src = thirdLeftDesk;
             }
         }
         window.addEventListener('resize', responsiveImgs);
-    })*/
+    })
 
     return (
         <div>

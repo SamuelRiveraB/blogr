@@ -57,6 +57,15 @@ function Header() {
             }
         }
         window.addEventListener('resize', responsiveNav);
+        const header = document.querySelector('.header');
+
+        window.addEventListener('scroll', () => {
+            console.log("scroll "+window.scrollY);
+            console.log("offset "+window.pageYOffset);
+            let y = 0 + (window.scrollY || window.pageYOffset) / 1000;
+            console.log(y);
+            header.style.background = `linear-gradient(to right, rgba(255,143,112,${y}), rgba(255,61,83, ${y})`;
+        })
     })
 
     return (

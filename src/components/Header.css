@@ -1,6 +1,5 @@
 @media (min-width : 320px) {
     .header {
-        background-color: rgba(204, 114, 92, 0.486);
         position: fixed;
         top: 0;
         left: 0;
@@ -140,7 +139,7 @@
         color: #FFF;
         font-size: 4vw;
         font-weight: 700;
-        padding: 4vw 9vw;
+        padding: 4vw 10vw;
         border: none;
         display: inline-block;
         cursor: pointer;
@@ -149,59 +148,69 @@
     }
 }
 
-
-
 @media (min-aspect-ratio: 5/6) {
     .header {
         width: 100vw;
         height: 7vw;
     }
 
-    .left-header {
-        height: 100%;
-        padding: 0 0 0 6vw;
-    }
-
     .logo {
-        font-size: 2.5vw;
-        height: 5vw;
-        width: 5vw;
-        margin: .5vw 0;
+        height: 3vw;
+        width: 8vw;
+        margin: 0 0 0 -6vw;
     }
 
     .right-header {
         top: 10vw;
-        height: 75vh;
+        height: 72vh;
         width: 86vw;
     }
 
-    .triangle {
-        top: -8%;
-        border-bottom: 10vw solid #FFF;
-        border-left: 10vw solid transparent;
-      }
-
     .nav-btn {
-        top: -7.7vw;
-        width: 2.5vw;
-        height: 2vw;
+        top: 2vw;
+        right: 6vw;
+        width: 5vw;
+        height: 2.5vw;
     }
 
     .header-menus {
-        height: 20vh;
-        font-size: 8vh;
-        padding: 1vh 0 0 0;
+        padding: 0;
     }
 
-    .header-menus li {
-        margin: 0 0 4vh 4vh;
+    .dropdown {
+        margin-top: 0;
     }
 
-    .contactBtn {
-        margin: 1vw 0 0 0;
+    .drop-btn {
         font-size: 4vh;
-        width: 38vh;
-        height: 14vh;
+    }
+
+    .dropdown-img {
+        width: 4vh;
+    }
+    
+    .dropdown-content {
+        padding: 2vh 0;
+    }
+
+    .dropdown-link {
+        font-size: 4vh;
+        margin: 3vh 0;
+    }
+
+    .line {
+        margin-top: 4vh;
+        margin-bottom: 8vh;
+    }
+    
+    .login {
+        font-size: 4vh;
+    }
+
+    .sign {
+        font-size: 3vh;
+        padding: 3vh 6vh;
+        margin-top: 4vh;
     }
 }
 
@@ -229,11 +238,7 @@
         height: 7vw;
         width: 50vw;
         background-color: #3DBEFF;
-    }
-
-    .triangle {
-        display: none;
-    }
+    }/*
 
     .nav-btn {
         display: none;
@@ -262,5 +267,5 @@
         background-color: #FFF;
         width: 12vw;
         height: 4vw;
-    }
+    }*/
 }
