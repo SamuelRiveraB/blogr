@@ -80,6 +80,11 @@
         margin: 0 0 4vw 0;
     }
 
+    .drop-btn:hover {
+        text-decoration: underline;
+        text-decoration-thickness: 0.5vw;
+    }
+
     .dropdown-img {
         width: 3vw;
         margin: 0 2vw;
@@ -109,12 +114,16 @@
         cursor: pointer;
         color: hsl(208, 49%, 24%);
         font-size: 4vw;
-        font-weight: 700;
+        font-weight: 500;
         position: relative;
         left: 50%;
         transform: translate(-50%);
         text-decoration: none;
         margin: 5vw 0;
+    }
+
+    .dropdown-link:hover {
+        font-weight: 700;
     }
 
     .line {
@@ -145,6 +154,10 @@
         cursor: pointer;
         text-align: center;
         margin: 5vw;
+    }
+
+    .sign:hover {
+        background: hsl(355, 100%, 74%);
     }
 }
 
@@ -217,55 +230,119 @@
 @media (min-width : 1200px) {
     .header {
         width: 100vw;
-        height: 7vw;
+        height: 5vw;
+        grid-auto-rows: 5vw;
+        grid-template-columns: 20% 80%;
     }
 
     .left-header {
         height: 100%;
-        padding: 0 0 0 3vw;
+        padding: 0 0 0 0vw;
     }
 
     .logo {
-        font-size: 2vw;
-        height: 4vw;
-        width: 4vw;
-        margin: .5vw 0;
+        height: 2.5vw;
+        width: 6vw;
+        margin: 0vw 16vw;
     }
 
     .right-header {
+        all: unset;
         position: relative;
         top: 0;
-        height: 7vw;
-        width: 50vw;
-        background-color: #3DBEFF;
-    }/*
+        height: 100%;
+        width: 100%;
+    }
 
     .nav-btn {
         display: none;
     }
 
     .header-menus {
-        display: inline-block;
         height: 5vw;
-        font-size: 1.3vw;
+        font-size: 1vw;
         padding: 0;
         margin: .4vw 0;
     }
 
-    .menu {
+    .dropdown {
+        display: inline-block;
+        margin: 0 0 0vw 2vw;
+        text-align: center;
+    }
+
+    .drop-btn {
+        color: #FFF;
+        font-size: 1.2vw;
+        font-weight: 700;
+        margin: 1.7vw 0 0 0;
+        left: -26vw;
+    }
+
+    .drop-btn:hover {
+        text-decoration-thickness: 0.2vw;
+    }
+
+    .dropdown-img {
+        width: 0.7vw;
+        margin: 0 .5vw;
+    }
+    
+    .dropdown-content {
+        position: absolute;
+        width: 12vw;
+        left: 5vw;
+        border-radius: 1vw;
+        padding: 1vw 0;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .comp {
+        left: 13vw;
+    }
+
+    .conn {
+        left: 22vw;
+    }
+
+    .hidden {
+        z-index: 1000;
+    }
+
+    .dropdown-link {
+        color: hsl(240, 10%, 16%);
+        font-size: 1vw;
+        left: 1.5vw;
+        margin: 0.6vw 0;
+        transform: unset;
+    }
+
+    .line {
+        display: none;
+    }
+    
+    .login {
+        position: relative;
+        color: #FFF;
+        bottom: 1.5vw;
+        left: 15vw;
+        width: 2vw;
+        font-size: 1.2vw;
+    }
+
+    .sign {
+        position: relative;
+        background: #FFF;
+        bottom: 4.9vw;
+        left: 24vw;
+        border-radius: 80px;
+        color: hsl(353, 100%, 62%);
+        font-size: 1.2vw;
+        padding: .8vw 2.3vw;
+        margin: 1vw;
+    }
+
+    .sign:hover {
         color: #FFF;
     }
-
-    .header-menus li {
-        margin: 0 0 4vw 4vw;
-        display: inline-block;
-    }
-
-    .contactBtn {
-        position: relative;
-        font-size: 1.5vw;
-        background-color: #FFF;
-        width: 12vw;
-        height: 4vw;
-    }*/
 }

@@ -4,7 +4,6 @@ import banner from "../images/bg-pattern-intro-mobile.svg"
 import firstLeft from "../images/illustration-editor-mobile.svg";
 import secondLeft from "../images/illustration-phones.svg";
 import thirdLeft from "../images/illustration-laptop-mobile.svg";
-import logo from "../images/logo.svg";
 
 import bannerDesk from "../images/bg-pattern-intro-desktop.svg";
 import firstLeftDesk from "../images/illustration-editor-desktop.svg";
@@ -79,30 +78,6 @@ function Home() {
                         <p className="powerful-text">Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
                             capable of producing even the most complicated sites.
                         </p>
-                    </div>
-                </div>
-                <div className="footer">
-                    <img className="footer-logo" src={logo} alt="footer-logo"></img>
-                    <div className="footer-left">
-                        <h2 className="footer-title">Product</h2>
-                        <a href="/" className="link">Overview</a>
-                        <a href="/" className="link">Pricing</a>
-                        <a href="/" className="link">Marketplace</a>
-                        <a href="/" className="link">Features</a>
-                        <a href="/" className="link">Integration</a>
-                    </div>
-                    <div className="footer-center">
-                        <h2 className="footer-title">Company</h2>
-                        <a href="/" className="link">About</a>
-                        <a href="/" className="link">Team</a>
-                        <a href="/" className="link">Blog</a>
-                        <a href="/" className="link">Careers</a>
-                    </div>
-                    <div className="footer-right">
-                        <h2 className="footer-title">Connect</h2>
-                        <a href="/" className="link">Contact</a>
-                        <a href="/" className="link">Newsletter</a>
-                        <a href="/" className="link">LinkedIn</a>
                     </div>
                 </div>
             </div>
