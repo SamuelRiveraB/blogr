@@ -2,6 +2,7 @@ import React from "react";
 import "./Header.css";
 import logo from "../images/logo.svg";
 import nav from "../images/icon-hamburger.svg";
+import close from "../images/icon-close.svg";
 import drop from "../images/icon-arrow-dark.svg";
 import drop2 from "../images/icon-arrow-light.svg";
 
@@ -11,9 +12,11 @@ function Header() {
         const right = document.getElementsByClassName("right-header")[0];
         if (right.style.visibility === "hidden") {
             right.style.visibility = "visible";
+            navImg.src = close;
         } else {
             right.style.visibility = "hidden";
             navImg.style.visibility = "visible";
+            navImg.src = nav;
         }
     }
 
@@ -69,6 +72,7 @@ function Header() {
     React.useEffect(() => {
         const navImg = document.getElementsByClassName("nav-btn")[0];
         const right = document.getElementsByClassName("right-header")[0];
+        navImg.src = nav;
         if (window.innerWidth < 1200) {
             navImg.style.visibility = "visible";
             right.style.visibility = "hidden";
@@ -79,7 +83,8 @@ function Header() {
         
         function responsiveNav() {
             if (window.innerWidth < 1200) {
-                navImg.style.visibility = "visible"; 
+                navImg.style.visibility = "visible";
+                navImg.src = close;
                 document.getElementsByClassName("dropdown-img")[0].src = drop;
                 document.getElementsByClassName("dropdown-img")[1].src = drop;
                 document.getElementsByClassName("dropdown-img")[2].src = drop;
@@ -142,7 +147,7 @@ function Header() {
                         <li><button className="sign">Sign Up</button></li>
                     </ul>
                 </div>
-            </nav><img src={nav} className="nav-btn" alt="nav" onClick={navBar}/>
+            </nav><img src="" className="nav-btn" alt="nav" onClick={navBar}/>
         </>
     );
 }

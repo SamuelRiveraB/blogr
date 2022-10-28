@@ -48,7 +48,7 @@
         position: fixed;
         top: 4.5vw;
         right: 5vw;
-        width: 8vw;
+        width: 6vw;
         height: 4vw;
         display: inline-block;
         cursor: pointer;
@@ -182,7 +182,7 @@
     .nav-btn {
         top: 2vw;
         right: 6vw;
-        width: 5vw;
+        width: 3vw;
         height: 2.5vw;
     }
 
